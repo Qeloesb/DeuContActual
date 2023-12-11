@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511285820173",
+    "project_id": "deucont",
+    "storage_bucket": "deucont.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511285820173:android:0e82f83cdf7ab26bd7ce44",
+        "android_client_info": {
+          "package_name": "com.example.deucont"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPbyhVnP8joWgCsvDhjEdgrJvEqJj4TW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

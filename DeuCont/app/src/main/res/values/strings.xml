@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DeuCont</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="recuperar_contrasena">Haz olvidado tu contrasena?</string>
+    <string name="nombre_deuda">Nombre de la deuda</string>
+    <string name="guardar">Guardar</string>
+    <string name="cantidad_de_cuotas">Cantidad de Cuotas</string>
+    <string name="fecha_de_vencimiento">Fecha del Pago Mensual</string>
+    <string name="nombre_de_la_deuda">Nombre de la Deuda</string>
+    <string name="valor_de_la_cuota">Cantidad de Cuotas</string>
+    <string name="valor_de_la_deuda">Valor de la Deuda</string>
+    <string name="email">Correo Electronico // Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registro_user">Registrarme</string>
+    <string name="logout">Cerrar Sesion</string>
+    <string name="mis_deudas">Mis Deudas</string>
+    <string name="agregar_deuda">Agregar Deuda</string>
+    <string name="nombre_usuario">Nombre Usuario</string>
+    <string name="contraseña_antigua">Contraseña Antigua</string>
+    <string name="contraseña_new">Nueva Contraseña</string>
+    <string name="confirmar_contrasena_new">Confirmar Contraseña Nueva</string>
+    <string name="nueva_contrasena">Nueva Contraseña</string>
+    <string name="valor_mensual">Valor Mensual</string>
+    <string name="modificar_deuda">Modificar Deuda</string>
+</resources>

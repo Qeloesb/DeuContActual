@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteTrans">#32FFFFFF</color>
+    <color name="rojo">#FF0000</color>
+    <color name="azul">#0000FF</color>
+    <color name="verde">#00FF00</color>
+    <color name="fondo_login">#97000000</color>
+    <color name="borde">#00BCD4</color>
+    <color name="bt_iniciarsesion">#FFC107</color>
+    <color name="font">#673AB7</color>
+</resources>

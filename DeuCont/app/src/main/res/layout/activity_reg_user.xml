@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistas.RegUserActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tvTituloRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Usuario"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/TextAppearance.Material3.DisplayMedium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEmailReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        android:hint="@string/email"
+        app:layout_constraintTop_toBottomOf="@id/tvTituloRegistro"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmailReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_email_2"
+            android:inputType="text"
+            android:drawablePadding="5dp"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        app:endIconMode="password_toggle"
+        android:hint="@string/password"
+        app:layout_constraintTop_toBottomOf="@id/tilEmailReg"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_password"
+            android:inputType="textPassword"
+            android:drawablePadding="5dp"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        app:endIconMode="password_toggle"
+        android:layout_marginTop="50dp"
+        android:hint="Confirmar Contraseña"
+        app:layout_constraintTop_toBottomOf="@id/tilPass1"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_password"
+            android:inputType="textPassword"
+            android:drawablePadding="5dp"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:backgroundTint="@color/bt_iniciarsesion"
+        android:text="Registrarme"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/tilPass2"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
